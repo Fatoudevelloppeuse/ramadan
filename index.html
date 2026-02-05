@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Bienvenue Ramadan</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Police arabe -->
+  <link href="https://fonts.googleapis.com/css2?family=Amiri&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="container">
+
+    <h1>🌙 Bienvenue au mois béni de Ramadan</h1>
+    <p class="subtitle">Un mois de foi, de paix et de spiritualité</p>
+
+    <!-- Slider -->
+    <div class="slider">
+      <img id="slide" src="images/ramadan1.jpg" alt="Ramadan">
+    </div>
+
+    <!-- Boutons -->
+    <div class="buttons">
+      <button onclick="message()">Message</button>
+      <button onclick="changerImage()">Image suivante</button>
+      <button onclick="afficherRappel()">Rappel islamique</button>
+    </div>
+
+    <!-- Message -->
+    <p id="textMessage"></p>
+
+    <!-- Rappels -->
+    <div class="rappel-box">
+      <p id="rappelAr" class="arabic"></p>
+      <p id="rappelFr"></p>
+    </div>
+
+    <footer>
+      <p>© 2026 - Projet Ramadan | Développé par Fatou Leye</p>
+    </footer>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

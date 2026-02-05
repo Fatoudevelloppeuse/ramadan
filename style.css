@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: radial-gradient(circle, #0f2027, #203a43, #2c5364);
+  color: white;
+  text-align: center;
+}
+
+.container {
+  padding: 40px;
+}
+
+h1 {
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  color: #ddd;
+  font-size: 18px;
+}
+
+.slider {
+  margin: 30px auto;
+  width: 450px;
+  height: 280px;
+  overflow: hidden;
+  border-radius: 20px;
+  box-shadow: 0 0 25px rgba(255, 215, 0, 0.5);
+}
+
+.slider img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.buttons button {
+  padding: 12px 22px;
+  margin: 10px;
+  border: none;
+  border-radius: 25px;
+  background: linear-gradient(45deg, gold, orange);
+  color: black;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.buttons button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px gold;
+}
+
+#textMessage {
+  margin-top: 20px;
+  font-size: 20px;
+  color: #ffd700;
+}
+
+.rappel-box {
+  margin-top: 30px;
+  padding: 25px;
+  border: 1px solid gold;
+  border-radius: 15px;
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+  background: rgba(0,0,0,0.4);
+}
+
+.arabic {
+  font-size: 30px;
+  font-family: 'Amiri', serif;
+  direction: rtl;
+  color: #ffd700;
+}
+
+footer {
+  margin-top: 50px;
+  font-size: 14px;
+  color: #aaa;
+}
